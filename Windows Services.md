@@ -23,6 +23,8 @@ Simply put, Windows-Services enables users to create Programs\Applications that 
 
 On the Services App, background programs will appear. The user can click on any of the programs to make changes to them i.e., stop a running program, pause, or start.
 
+![UI Image](https://github.com/FacelessHacker/Windows-Services/blob/main/Screenshot%20(44).png)
+
 ##### Steps to Add a New Services using the Command Prompt (cmd)
 
 To Access The Command Prompt 
@@ -43,13 +45,19 @@ Adding the New Services
   
   - Alas!!! Service created succesfully!
   
+  ![UI Image](https://github.com/FacelessHacker/Windows-Services/blob/main/Screenshot%20(41).png)
+  
   - Press return and that's that!
   
 Check 'Services' For the Program Added & Set it as You Like
 
   - Look for the service name 'Rahmat'
-  - Right click on it, a big box will appear
+  - Right click on it, a box will appear.
+  - Chose properties and right click on it.
+  - A big Box will appea
   - Read and choose the instructions as wish
+  
+  ![UI Image](https://github.com/FacelessHacker/Windows-Services/blob/main/Screenshot%20(43).png)
   
   ### A NEW SERVICE has been SUCCESSFULLY CREATED!!!
   

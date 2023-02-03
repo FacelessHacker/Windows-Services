@@ -5,7 +5,7 @@
 
 
 ##### What are Windows-Services?
-Simply put, Windows-Services enables users to create Programs\Applications that runs in the background. A user can make a program starts in the background and  also stops a program from running. For the effective functionality of the System, certain programs run in the background all time. Background Windows services Programs can be accessed through the Command Prompt or the Start Icon.
+Simply put, Windows-Services enables users to create Programs\Applications that runs in the background. A user can make a program start in the background and  also stops a program from running. For the effective functionality of the System, certain programs run in the background all time. Background Windows services Programs can be accessed through the Command Prompt or the Start Icon.
 
 
 ##### Creating a Background Service Through the Command Prompt

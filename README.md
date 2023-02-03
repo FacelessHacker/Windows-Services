@@ -25,29 +25,31 @@ On the Services App, background programs will appear. The user can click on any 
 
 ##### Steps to Add a New Services using the Command Prompt (cmd)
 
-1. To Access The Command Prompt 
+To Access The Command Prompt 
   - Click on the windows button on the keyboard or on the left side of the PC
   - Type 'Command Prompt' in the search box
   - Run as Administrator
   - Command Prompt will start
   
-2. Adding the New Services
+Adding the New Services
 
-- Type the command below in the prompt
+  - Type the command below in the prompt
 
   ```
   sc create "Rahmat" binPath= "C:\Windows\System32\Calc.exe"
   ```
   
-  Rahmat= name to give to the service 
+  - Rahmat= name to give to the service $ "C:\Windows\System32\Calc.exe" = The full path of the Servi to create
   
-  "C:\Windows\System32\Calc.exe" = The full path of the Services to create
+  - Alas!!! Service created succesfully!
   
-  Alas!!! Service created succesfully!
+  - Press return and that's that!
   
-- Press return and that's that!
+Check 'Services' For the Program Added & Set it as You Like
 
-##### Creating a Background Service Through the Start Icon
-
-- Clicking on Start Icon
-- 
+  - Look for the service name 'Rahmat'
+  - Right click on it, a big box will appear
+  - Read and choose the instructions as wish
+  
+  ### A NEW SERVICE has been SUCCESSFULLY CREATED!!!
+  

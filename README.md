@@ -24,11 +24,27 @@ Simply put, Windows-Services enables users to create Programs\Applications that 
 On the Services App, background programs will appear. The user can click on any of the programs to make changes to them i.e., stop a running program, pause, or start.
 
 ##### Steps to Add a New Services using the Command Prompt (cmd)
-- 
 
+1. To Access The Command Prompt 
+  - Click on the windows button on the keyboard or on the left side of the PC
+  - Type 'Command Prompt' in the search box
+  - Run as Administrator
+  - Command Prompt will start
+  
+2. Adding the New Services
 
-- Command Prompt will start
-- Type c:\windows\microsoft.net\framework\v4. 0.30319\installutil.exe [your windows service path to exe]
+- Type the command below in the prompt
+
+  ```
+  sc create "Rahmat" binPath= "C:\Windows\System32\Calc.exe"
+  ```
+  
+  Rahmat= name to give to the service 
+  
+  "C:\Windows\System32\Calc.exe" = The full path of the Services to create
+  
+  Alas!!! Service created succesfully!
+  
 - Press return and that's that!
 
 ##### Creating a Background Service Through the Start Icon
